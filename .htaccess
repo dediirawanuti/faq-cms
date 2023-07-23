@@ -1,0 +1,9 @@
+Options All -Indexes
+
+ErrorDocument 403 "https://localhost/KA19A1/E403"
+ErrorDocument 404 "https://localhost/KA19A1/E403"
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
