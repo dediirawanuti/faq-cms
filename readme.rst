@@ -1,3 +1,15 @@
+##################
+Faq cms adalah manajemen untuk pertanyaan dan jawaban
+##################
+
+Akses Admin
+http://localhost/faq-cms/auth
+username: AdminCMS
+pass: Admin123
+
+Akses Frontend
+http://localhost/faq-cms/
+
 ###################
 What is CodeIgniter
 ###################
